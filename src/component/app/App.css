@@ -1,0 +1,55 @@
+.overall-app{
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
+
+
+.app{
+  display: flex;
+  margin: 10px 20px 15px 50px;
+  flex-direction: row;
+  font-size: 19px;
+  font-family: cursive;
+  padding-top: 20px;
+}
+.title{
+  padding-block: 10px;
+  font-size: 25px;
+  color: wheat;
+}
+.app-form{
+  border-radius: 20px;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    background-image: url('../../../public/bg1.jpg');
+}
+.app-form .input-text{
+  width:100%;
+  height: 8%;
+}
+
+.app-form input{
+  border-radius: 50px;
+  block-size: 25px;
+  font-size: 19px;
+  font-family: cursive;
+  width: 19px;
+}
+
+.app-form label{
+  color: wheat
+}
+
+.app-form .btn{
+  position: relative;
+  height: 100%;
+    width: 70%;
+  cursor: pointer;
+  color: rgb(26, 22, 22);
+  font-weight: bold;
+}
+

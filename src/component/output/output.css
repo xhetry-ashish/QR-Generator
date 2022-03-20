@@ -1,0 +1,14 @@
+.output-box{
+    font-size: 25px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 30px;
+    gap: 20px;
+  }
+  
+  .output-box span{
+    color: black;
+    font-weight: bold;
+  }
